@@ -1,0 +1,8 @@
+[build]
+  base = "Velox website/velox"
+  command = "npm run build"
+  publish = "out"
+
+[build.environment]
+  NEXT_PUBLIC_BOOKMARKLET_HOST = "https://velox-xx.netlify.app"
+  NEXT_PUBLIC_BOT_URL = "https://leviathan-bot.fly.dev"

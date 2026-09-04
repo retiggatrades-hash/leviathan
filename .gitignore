@@ -1,0 +1,7 @@
+.vercel
+
+# Local Netlify folder
+.netlify
+
+# Exclude axiom (2) folder — has its own .git, caused submodule issue
+axiom (2)/
